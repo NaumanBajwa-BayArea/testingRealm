@@ -19,6 +19,7 @@ class ItemTableViewController: UITableViewController {
     var selectedCategory : Category? {
         didSet{
            loadItems()
+            //
         }
     }
     
